@@ -62,7 +62,17 @@ const BankingCard = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4" style={{ background: 'var(--gradient-primary)' }}>
+    <div className="min-h-screen flex flex-col items-center justify-center p-4" style={{ background: 'var(--gradient-copilot)' }}>
+      {/* Mini-Bank Header */}
+      <div className="mb-8 text-center">
+        <h1 className="text-4xl font-bold text-white mb-2 drop-shadow-lg">
+          Mini-Bank
+        </h1>
+        <p className="text-white/80 text-lg">
+          Your Digital Banking Solution
+        </p>
+      </div>
+
       <Card className="w-full max-w-md shadow-2xl border-0 backdrop-blur-sm" style={{ background: 'var(--gradient-card)', boxShadow: 'var(--shadow-card)' }}>
         <CardHeader className="text-center pb-6">
           <div className="flex items-center justify-center mb-4">
